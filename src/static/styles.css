@@ -29,14 +29,27 @@ body {
 }
 
 .activity-card .participants ul {
-  margin-left: 20px;
-  list-style-type: disc;
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
 }
 
 .activity-card .participants li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 6px;
   color: #555;
   font-size: 14px;
+}
+
+.remove-participant {
+  background: none;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 8px;
 }
 
 header {
